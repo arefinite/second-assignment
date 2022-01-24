@@ -1,0 +1,23 @@
+.mt-10 { margin-top: 10;}
+.mt-20 { margin-top: 20px;}
+.mt-50 { margin-top: 50px;}
+.mb-50 { margin-bottom: 50px;}
+.mt-100 { margin-top: 100px;}
+.mb-20 { margin-bottom: 20px;}
+.pt-30 { padding-top: 30px; }
+.pt-100 { padding-top: 100px;}
+.center { text-align: center;}
+.flex{
+    display: flex;
+}
+.container {
+    padding: 0 50px;
+}
+
+hr.style {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient( to right, rgb(135 20 20 / 0%), rgba(26, 149, 165, 0.75), rgb(0 0 0 / 0%) );
+    }

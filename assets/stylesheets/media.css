@@ -1,0 +1,126 @@
+@media only screen and (min-width: 300px) and (max-width : 760px) {
+    /*******************************************Header Section****************************************************/
+    .container{
+        padding: 0 10px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .head-name{
+        align-self: center;
+    }
+    .navigation{
+        align-self: center;
+    }
+    .navigation a {
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    /*******************************************Intro Section****************************************************/
+    .intro-text{
+        width: 100%;
+        text-align: center;
+    }
+    .intro-text h1 {
+        font-size: 30px;
+        
+    }
+    .intro-text a{
+        background: #02AAB0;  
+        background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  
+        background: linear-gradient(to right, #00CDAC, #02AAB0); 
+        border:1px solid #00CDAC;
+        border-radius: 10px;
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+    .intro-image{
+        padding-left: 0px;
+    }
+    .intro-image img {
+        width: 100%;
+    }
+    
+    /*******************************************Logo Section****************************************************/
+    .logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logos img{
+        padding: 15px;
+        width: 25%;
+    }
+    /*******************************************Collection Section****************************************************/
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .box {
+        width: 100%;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width:1024px) {
+    
+    /*******************************************Intro Section****************************************************/
+    .intro-text{
+        width: 50%;
+        
+    }
+    .intro-text h1 {
+        font-size: 30px;
+        
+    }
+    .intro-text a{
+        background: #02AAB0;  
+        background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  
+        background: linear-gradient(to right, #00CDAC, #02AAB0); 
+        border:1px solid #00CDAC;
+        border-radius: 10px;
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 15px;
+    }
+    .intro-image{
+        padding-left: 0px;
+    }
+    .intro-image img {
+        width: 100%;
+    }
+    
+    /*******************************************Logo Section****************************************************/
+    .logos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logos img{
+        padding: 15px;
+        width: 25%;
+    }
+    
+    /*******************************************Collection Section****************************************************/
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    .box {
+        width: 100%;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    }

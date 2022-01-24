@@ -1,0 +1,149 @@
+/*******************************************Header Section****************************************************/
+.head-name{
+    flex-grow: 1;
+}
+.navigation{
+    justify-content: flex-end;
+}
+.navigation a {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*******************************************Intro Section****************************************************/
+.intro-text{
+    width: 50%;
+}
+.intro-text h1 {
+    font-size: 40px;
+    
+}
+.intro-text a{
+    background: #02AAB0;  
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  
+    background: linear-gradient(to right, #00CDAC, #02AAB0); 
+    border:1px solid #00CDAC;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.intro-image{
+    padding-left: 100px;
+}
+.intro-image:hover {
+    transform: scale(0.8) rotate(360deg);
+    transition: transform 5s ease-in-out;
+  }
+
+/*******************************************Logo Section****************************************************/
+.logos{
+    justify-content: center;
+}
+.logos img{
+    padding-left: 40px;
+    width: 25%;
+}
+
+/*******************************************Collection Section****************************************************/
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.box {
+    width: 100%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box img {
+    width: 100%;
+}
+.box h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.star {
+    color: #FB8200;
+}
+.see-more {
+    text-align: right;
+    color: #02AAB0;
+}
+.see-more a {
+    color: #02AAB0;
+}
+
+/*******************************************Form Section****************************************************/
+
+.bg-img {
+    background-image: url("../images/gear-bg.jpg");
+    min-height: 380px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  
+  .container-form {
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .btn {
+    background: #02AAB0;  
+    background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  
+    background: linear-gradient(to right, #00CDAC, #02AAB0); 
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+/*******************************************Footer Section****************************************************/
+.footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 15px 0;
+}
+footer h3{
+    color: #fff;
+}
+footer p  {
+    color: #D9DBE1;
+    font-size: 12px;
+}
+footer i {
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
